@@ -1,3 +1,6 @@
+# Git pull and then git push
+alias wow="git pull && git push"
+
 # Stopwatch
 alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date'
 
