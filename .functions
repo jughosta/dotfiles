@@ -1,6 +1,10 @@
 # Search in Google
 function g() {
-    open https://google.com/#q=$@
+    open "https://google.com/#q=$@"
+}
+
+function gg() {
+    open "https://www.google.de/search?btnI=1&q=$@"
 }
 
 # Simple calculator
