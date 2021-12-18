@@ -9,5 +9,8 @@ for file in ~/.{path,bash_prompt,exports,aliases,functions,extra}; do
 done;
 unset file;
 
-#init z https://github.com/rupa/z
+# init z https://github.com/rupa/z
 . ~/code/z/z.sh
+
+# homebrew
+eval "$(/opt/homebrew/bin/brew shellenv)"
