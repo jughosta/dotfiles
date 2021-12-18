@@ -1,0 +1,2 @@
+alias recent="git for-each-ref --count=10 --sort=-committerdate refs/heads/ --format=\"%(refname:short)\""
+alias pull="git pull --rebase"
